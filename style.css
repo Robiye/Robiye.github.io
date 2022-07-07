@@ -1,0 +1,208 @@
+body{ padding: 0px; margin: 0px;}
+div{padding: 0px; margin: 0px;}
+
+@media only screen and (max-width: 1440px){
+
+
+    html,body{
+        height:100%;
+        background: hsl(30, 38%, 92%);
+    }
+
+    .webpage-container{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 6.2%;
+            
+    }
+
+    .Overall-Container{
+        display: flex;
+        height: 448px;
+        width: 600px;
+        
+    }
+
+    /*Channel picture side*/
+
+    .img-container{
+        width:300px;
+    }
+
+    .Chanel-img{
+        width: 100%;
+        height: inherit;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    /*--------------------------*/
+    /* Channel text side */
+
+    .Chanel-right-side{
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background:hsl(0, 0%, 100%);
+    }
+
+    .Chanel-description{
+        width: 237px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .Preview-text{
+        color: hsl(228, 12%, 48%);
+        font-size: 14px;
+        letter-spacing: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .Titling{
+        font-size: 35px;
+        font-family: "Fraunces";
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .Chanel-paragraph{
+        font-family: "Fraunces", sans-serif;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        line-height: 20px;
+    }
+
+    .Chanel-prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 185px;
+        height: 43px;   
+    }
+
+    .Chanel-price1{
+        font-size: 35px;
+        font-family: "Montserrat", serif;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+    }
+
+    .Chanel-price2{
+        font-size: 13px;
+        font-family: "Fraunces", serif;
+        text-decoration: line-through;
+        color:hsl(228, 12%, 48%);
+    }
+
+    .Chanel-text{
+        height: 355px;
+    }
+
+    /*--------------------------*/
+    /* Chanel Button*/
+
+    .Chanel-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: hsl(158, 36%, 37%);
+
+        /* justify-content:space-around ; */
+        border: none;
+        color: aliceblue;
+        font-family: "Fraunces", serif;
+        font-size: 14px;
+
+
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+
+    } 
+
+    /*--------------------------*/
+
+}
+
+@media only screen and (max-width: 640px){
+    
+    
+
+    .Overall-Container{
+        display:block;
+        margin-top: 50px;
+        height: 612px;
+        width: 350px;
+        
+    }
+
+    .img-container{
+        height: 240px;
+    }
+    .Chanel-img{
+        height: 100%;
+        width: 350px;
+        object-fit: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0;
+    }
+
+    .Chanel-right-side{
+        width: 100%;
+        height: 372px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 0;
+    }
+
+    .Preview-text{
+        margin: 0;
+    }
+
+    .Chanel-text{
+        height: auto;
+    }
+
+    .Chanel-description{
+        width: 237px;
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .Chanel-paragraph{
+        width:auto;
+        text-align: left;
+        height: 60px;
+        font-size: 16px;
+        font-weight: 0;
+        line-height: 22px;
+    }
+
+    .Titling{
+        font-size: 35px;
+        font-family: "Fraunces";
+        font-weight: 700;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .Chanel-button{
+        margin-top:15px;
+        cursor: pointer;
+    }
+
+    .Chanel-prices{
+        margin-top:30px;
+        
+    }
+}
+
+.attribution{
+    margin-top: 20px;
+}
